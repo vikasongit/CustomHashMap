@@ -1,0 +1,6 @@
+spring:
+    application:
+        name: CustomHashMap
+
+server:
+  port: ${CONFIG_SERVICE_PORT:8888}
